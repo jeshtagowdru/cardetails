@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>cars</span>details </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+       
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="compare-btn">
+        <a href="https://www.kbb.com/compare-cars/" class="btn">Compare</a>
+    </div>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="#featured" class="btn home-parallax">explore cars</a>
+
+</section>
+
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> popular <span>vehicles</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Swift.png" alt="">
+                <div class="content">
+                    <h3>Swift-Dezire</h3>
+                    <div class="price"> <span>price : </span> 10 lakh </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> automatic/manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 160mph
+                    </p>
+                    <a href="https://www.marutisuzuki.com/dzire" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/inova.png" alt="">
+                <div class="content">
+                    <h3>Innova crysta</h3>
+                    <div class="price"> <span>price : </span> 30 lakh </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 180mph
+                    </p>
+                    <a href="https://www.toyotabharat.com/showroom/innova-crysta/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/nexon.png" alt="">
+                <div class="content">
+                    <h3>TATA Nexon</h3>
+                    <div class="price"> <span>price : </span> 14.50 lakh</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 150mph
+                    </p>
+                    <a href="https://cars.tatamotors.com/suv/nexon" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/creta.png" alt="">
+                <div class="content">
+                    <h3>Creta</h3>
+                    <div class="price"> <span>price : </span> 14 lakh </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> automatic/manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 180mph
+                    </p>
+                    <a href="https://www.carwale.com/hyundai-cars/creta/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ma.png" alt="">
+                <div class="content">
+                    <h3>Mahendra Thar</h3>
+                    <div class="price"> <span>price : </span> 20 lakh </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic/manual
+                        <span class="fas fa-circle"></span> diesel/petrol
+                        <span class="fas fa-circle"></span> 160mph
+                    </p>
+                    <a href="https://auto.mahindra.com/suv/thar" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/XUV700.png" alt="">
+                <div class="content">
+                    <h3>XUV 700</h3>
+                    <div class="price"> <span>price : </span> 25 lakh</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatic/manual
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> 200mph
+                    </p>
+                    <a href="https://auto.mahindra.com/suv/xuv700" class="btn">check out</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>car selling</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+            <a href="https://www.cardekho.com/sell-used-car" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>parts repair</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+            <a href="https://gomechanic.in/car-repair-near-me" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>car insurance</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+            <a href="https://www.icicilombard.com/motor-insurance/car-insurance/" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>battery replacement</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+            <a href="https://www.batterywale.com/batterywale/" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>oil change</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+            <a href="https://www.shell.in/motorists/inside-our-stations/shell-helix-oil-change.html" class="btn"> read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> cars </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="">
+                <div class="content">
+                    <h3>Mercedes-Benz SL-class</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 1.53 crore</div>
+                    <a href="https://www.cardekho.com/carmodels/Mercedes-Benz/Mercedes-Benz_SL-Class" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="">
+                <div class="content">
+                    <h3>MG HS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 25.00 lakh</div>
+                    <a href="https://mgmotor.com.au/models/mg-hs/" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>Ford Focus ST</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 10 lakh</div>
+                    <a href="https://www.ford.co.uk/cars/focus-st" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>Audi Q8</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 1.46 crore</div>
+                    <a href="https://www.audi.in/in/web/en/models/q8/q8.html" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-5.png" alt="">
+                 <div class="content">
+                     <h3>KIA Sportage</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 25 lakh</div>
+                     <a href="https://www.kia.com/us/en/sportage" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="">
+                 <div class="content">
+                     <h3>Honda civic </h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 22 lakh</div>
+                     <a href="https://www.carwale.com/honda-cars/civic/" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-7.png" alt="">
+                 <div class="content">
+                     <h3>KIA SONET</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">30 lakh</div>
+                     <a href="https://www.kia.com/in/our-vehicles/sonet/showroom.html?utm_source=google&utm_medium=sem&utm_campaign=sonet_brand&gclid=EAIaIQobChMIw-iNlfnJ_gIVjQhyCh0bVA-1EAAYASAAEgLxzfD_BwE" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-8.png" alt="">
+                 <div class="content">
+                     <h3>Chevrolet Equinox</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">30 lakh</div>
+                     <a href="https://www.chevrolet.com/suvs/equinox" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Midend</span> cars </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/ertiga.png" alt="">
+                <div class="content">
+                    <h3>Maruti suzuki Ertiga</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 10 lakh</div>
+                    <a href="https://www.marutisuzuki.com/ertiga?form=testdrive&utm_source=google&utm_medium=cpc&utm_campaign=13871813891&utm_term=ertiga&utm_content=c&gclid=CjwKCAjwuqiiBhBtEiwATgvixPayESnzAPliJpWkwTyWPLGDLuCkitkAYRU--1Sb1ZhtVO16ApJc5BoCFGIQAvD_BwE" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/i20.png" alt="">
+                <div class="content">
+                    <h3>Hyundai i20</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 12 lakh</div>
+                    <a href="https://www.hyundai.com/in/en/find-a-car/i20/highlights.html?utm_source=search&utm_campaign=i20-AlwaysOn-2023&utm_medium=SOV&id=i20&prod=i20&gclid=CjwKCAjwuqiiBhBtEiwATgvixDvg_7_uS04MXTUc0R3maFrTQuQWsAwiswGkeR2DqcfqfxTLhj21EBoCrxwQAvD_BwE" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/scor.png" alt="">
+                <div class="content">
+                    <h3>Mahendra Scorpio</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 14 lakh</div>
+                    <a href="https://auto.mahindra.com/suv/scorpio" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/baleno.png" alt="">
+                <div class="content">
+                    <h3>Maruti suzuki Baleno</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 10 lakh</div>
+                    <a href="https://www.nexaexperience.com/baleno" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/ecosprt.png" alt="">
+                 <div class="content">
+                     <h3>Ford EcoSport</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 14 lakh</div>
+                     <a href="https://www.cardekho.com/carmodels/Ford/Ford_EcoSport" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="">
+                 <div class="content">
+                     <h3>Honda civic </h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 22 lakh</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-7.png" alt="">
+                 <div class="content">
+                     <h3>KIA SONET</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">30 lakh</div>
+                     <a href="#" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/breza.png" alt="">
+                 <div class="content">
+                     <h3>Vitara Brezza</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">14 lakh</div>
+                     <a href="https://www.marutisuzuki.com/brezza?form=testdrive&utm_source=google&utm_medium=cpc&utm_campaign=13824065970&utm_term=brezza&utm_content=c&gclid=EAIaIQobChMIpva6zO3J_gIVWJNmAh364QDAEAAYASAAEgJ6m_D_BwE" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Lowend</span> cars </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/celar.png" alt="">
+                <div class="content">
+                    <h3>Maruti suzuki Celerio</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 6.7 lakh</div>
+                    <a href="https://www.marutisuzuki.com/celerio?form=testdrive&utm_source=google&utm_medium=cpc&utm_campaign=13799624150&utm_term=celerio%20car&utm_content=c&gclid=EAIaIQobChMIoq6Tye_J_gIVkghyCh3Tng60EAAYASAAEgIBRfD_BwE" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/kwida.png" alt="">
+                <div class="content">
+                    <h3>renault Kwid</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 5.66 lakh</div>
+                    <a href="https://www.renault.co.in/cars/renault-kwid.html" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/k11.png" alt="">
+                <div class="content">
+                    <h3>maruti Suzuki Alto K10</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 4.80 lakh</div>
+                    <a href="https://www.marutisuzuki.com/alto-k10?utm_source=google&utm_medium=cpc&utm_campaign=18478007953&utm_term=alto%20k10&utm_content=c&gclid=EAIaIQobChMI6LzQl_HJ_gIVR3d9Ch0lHg7BEAAYASAAEgKhp_D_BwE" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/tieago.png" alt="">
+                <div class="content">
+                    <h3>Tata Tiago</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> 7 lakh</div>
+                    <a href="https://cars.tatamotors.com/cars/tiago" class="btn">check out</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/eco-re.png" alt="">
+                 <div class="content">
+                     <h3>Maruti Suzuki Eeco</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 7 lakh</div>
+                     <a href="https://www.carwale.com/maruti-suzuki-cars/eeco/" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/glanza-r.png" alt="">
+                 <div class="content">
+                     <h3>Toyota Glanza</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 8 lakh</div>
+                     <a href="https://www.carwale.com/toyota-cars/glanza/?utm_source=google&utm_medium=cpc&utm_campaign=11597282074&utm_term=glanza&gclid=EAIaIQobChMIxMioifTJ_gIVz38rCh0fIQt1EAAYASAAEgILpfD_BwE" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/magnite-r.png" alt="">
+                 <div class="content">
+                     <h3>Nissan Magnite</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 7.50 lakh</div>
+                     <a href="https://www.nissan.in/vehicles/new/magnite.html?utm_source=Google&cid=PSM_FY23-FY24-APR-Nissan-Magnite-Apr-MUL-NA-RTL-NA-AMI-IND-NA-LG-NA-NA-NISSAN-NA-NA-NA-NA-NA-Est-1312_NMIPL_Consideration_Google_Pan-India-Brand-Model-Low-Intent-UAG-EM2_RSA&gclid=EAIaIQobChMI_u6-9vTJ_gIVjFd9Ch2i-woUEAAYASAAEgK7wvD_BwE" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/polo-r.png" alt="">
+                 <div class="content">
+                     <h3>Volkswagen Polo</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"> 9 lakh</div>
+                     <a href="https://www.volkswagen.co.in/en/models/polo.html" class="btn">check out</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+
+
+
+<section class="newsletter">
+    
+    <h3>subscribe for latest updates</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, suscipit.</p>
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632137920043!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="tel" placeholder="subject" class="box">
+            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i>+91 9353133503</a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 7760190064 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> jeshta59@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> hubli,karnataka -580023 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
